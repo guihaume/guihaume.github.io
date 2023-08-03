@@ -63,15 +63,21 @@ a:hover {
 }
 
 .intro{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
     
 }
 h1{
     color: var(--white, #FFF);
     font-family: Fira Code;
-    font-size: 32px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    width: 580px;
 }
 h1 .highlight{
     color:#C778DD
@@ -79,10 +85,11 @@ h1 .highlight{
 h4 {
     color: var(--gray, #ABB2BF);
     font-family: Fira Code;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px; /* 156.25% */
+    width: 500px;
 }
 
 button{
@@ -96,4 +103,33 @@ button{
 button:hover {
     background-color: #C778DD;
     color:#282C33
-  }
+}
+.txtIntro{
+    position: relative;
+}
+.picIntro{
+    position: relative;
+    min-width: 35%;
+}
+.me{
+    position: absolute; /* Positionnement absolu */
+    top: 50%; /* Centrer verticalement */
+    left: 50%; /* Centrer horizontalement */
+    transform: translate(-50%, -50%); /* Centrer parfaitement en utilisant translate */
+    height: 300px;
+    opacity: 70%;
+    
+}
+
+.logo{
+    position: relative;
+    top:-100px;
+    left:5%;
+    opacity: 50%;
+
+}
+.dots{
+    position: relative;
+    right: -120px;
+    top:100px;
+}
