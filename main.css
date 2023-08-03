@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Fira Code';
+    src: url('fonts/FiraCode-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+}
+
+
 body{
     background: var(--background, #282C33);
     font-family: Fira Code;
@@ -24,3 +36,64 @@ header{
     align-items: center;
     gap: 8px;
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style spécifique pour le symbole "#" */
+a .hash {
+    color: var(--primary, #C778DD);
+    
+}
+
+/* Lorsque le lien est survolé */
+a:hover {
+    color:#C778DD; /* Couleur du texte au survol */
+}
+
+.intro{
+    
+}
+h1{
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+h1 .highlight{
+    color:#C778DD
+}
+h4 {
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+}
+
+button{
+    color:#FFF;
+    background-color:#282C33;
+    border: 1px solid var(--primary, #C778DD);
+    padding: 8px 16px;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: #C778DD;
+    color:#282C33
+  }
