@@ -52,7 +52,7 @@ a {
 }
 
 /* Style spécifique pour le symbole "#" */
-a .hash {
+ .hash {
     color: var(--primary, #C778DD);
     
 }
@@ -167,4 +167,14 @@ button:hover {
     justify-content: center;
     width: max-content;
     margin-top: 110px;  
+}
+
+.title{
+    display: flex;
+    padding:100px 120px ;
+    align-items: center;    
+}
+
+.line{
+    margin-left: 16px;
 }
