@@ -188,6 +188,7 @@ button:hover {
 }
 
 .cardList{
+    margin-left: 5%;
     width: 90%;
     overflow:scroll;
     display: flex;
