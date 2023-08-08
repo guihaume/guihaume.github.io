@@ -188,6 +188,8 @@ button:hover {
 }
 
 .cardList{
+    width: 90%;
+    overflow:scroll;
     display: flex;
     flex-direction:row;
     align-items: flex-start;
@@ -221,4 +223,39 @@ p{
 
 .technos{
     padding-left: 16px;
+}
+
+.skillType{
+    width: 178px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+
+.technoList{
+    color: var(--gray, #ABB2BF);
+    border-top: 1px solid var(--gray, #ABB2BF);
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skillName{
+    margin: 0%;
+    padding: 8px 8px 0px 8px;
+}
+
+.skillsList{
+    margin-top: 75px;
+    margin-left: 50%;
+    width:40%;
+    max-height: 400px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap:wrap-reverse;
 }
