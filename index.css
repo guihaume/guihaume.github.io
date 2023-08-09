@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Fira Code', monospace;
+    margin: 0%;
 }
 
 
@@ -259,4 +260,81 @@ p{
     flex-direction: column;
     align-items: flex-end;
     flex-wrap:wrap-reverse;
+}
+
+.about-me{
+    line-height: 26px; /* 162.5% */
+    width: 40%;
+    max-height: 75%;
+    padding-left: 55%;
+    padding-bottom: 16px;
+}
+
+.contactMess{
+    width: 35%;
+    margin-left: 120px;
+    margin-top: 0%;
+}
+
+.contactCard{
+    display: inline-flex;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border: 1px solid var(--gray, #ABB2BF);
+}
+
+.network{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.id{
+    margin: 0%;
+}
+
+.InLogo{
+    margin: 4px;
+}
+
+.InLink{
+    color: var(--gray, #ABB2BF);
+    text-decoration: none;
+}
+
+.contactCardTitle{
+    padding-left: 4px;
+}
+
+.contactArea{
+    padding-top:32px ;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    gap: 25%;
+}
+
+h2{
+    font-size: 16px;
+}
+
+footer{
+    border-top: 1px solid var(--gray, #ABB2BF);
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 0%;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright{
+    color: var(--gray, #ABB2BF);
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
