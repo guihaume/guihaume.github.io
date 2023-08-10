@@ -4,7 +4,9 @@
     font-weight: normal;
     font-style: normal;
 }
-
+html {
+    scroll-behavior: smooth;
+ }
 body {
     font-family: 'Fira Code', monospace;
     margin: 0%;
@@ -264,8 +266,10 @@ p{
 
 .about-me{
     line-height: 26px; /* 162.5% */
+    font-size: 16px;
     width: 40%;
     max-height: 75%;
+    padding-top: 20px;
     padding-left: 55%;
     padding-bottom: 16px;
 }
