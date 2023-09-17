@@ -125,7 +125,7 @@ button:hover {
 
 .logo{
     position: relative;
-    top:-100px;
+    top:-70px;
     left:5%;
     opacity: 50%;
 
@@ -148,7 +148,7 @@ button:hover {
     position:relative;
     display: flex;
     align-items: center;
-    top: 90px;
+    top: 110px;
     color: var(--gray, #ABB2BF);
     padding: 8px;
     gap: 10px;
