@@ -132,7 +132,7 @@ button:hover {
 }
 .dots{
     position: relative;
-    right: -120px;
+    right: -180px;
     top:50px;
 }
 
@@ -148,7 +148,7 @@ button:hover {
     position:relative;
     display: flex;
     align-items: center;
-    top: 110px;
+    top: 120px;
     color: var(--gray, #ABB2BF);
     padding: 8px;
     gap: 10px;
